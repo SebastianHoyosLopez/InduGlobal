@@ -9,8 +9,8 @@ const App = () => {
           <div className="col-6">
             <NavbarInduGlobal />
           </div>
-          <div className="logo-induGlobal col-4">
-            <img style={{height:"200px"}} src="https://imgur.com/OjxGccl.jpg" alt="logo empresa" />
+          <div className="logo-induGlobal col-6">
+            <img style={{height:"150px"}} src="https://imgur.com/OjxGccl.jpg" alt="logo empresa" />
           </div>
         </div>
         <Switch>
