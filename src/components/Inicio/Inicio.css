@@ -1,0 +1,20 @@
+.imgen-engineering {
+  margin-top: 40px;
+}
+
+.description {
+  background: rgb(5, 71, 152);
+  height: 600px;
+  opacity: 70%;
+}
+
+.description p {
+  color: white;
+}
+
+h1 {
+  text-align: right;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(5, 71, 152);
+  font-size: 1.5cm;
+}
