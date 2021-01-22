@@ -46,17 +46,17 @@ export default function Example() {
               | PRODUCTOS |
             </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem href="/Seguridad">
-                Seguridad Industrial
+              <DropdownItem >
+                <Link to="seguridad">Seguridad</Link>
               </DropdownItem>
-              <DropdownItem href="/Herramientas">
-                Herramientas
+              <DropdownItem >
+                <Link to="herramientas">Herramientas</Link>
               </DropdownItem>
-              <DropdownItem href="/Soldadura">
-                Soldadura
+              <DropdownItem>
+                <Link to="soldadura">Soldadura</Link>
               </DropdownItem>
-              <DropdownItem href="/Abrasivos">
-                Abrasivos
+              <DropdownItem >
+                <Link to="abrasivos">Abrasivos</Link>
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
