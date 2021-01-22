@@ -40,23 +40,22 @@ export default function Example() {
           <UncontrolledDropdown setActiveFromChild>
             <DropdownToggle
               style={{ color: "blue" }}
-              tag={Link}
               className="nav-link"
-              to="" caret
+              tag={Link}
             >
               | PRODUCTOS |
             </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem tag='a' className="nav-link" to="" caret>
+              <DropdownItem href="/Seguridad">
                 Seguridad Industrial
               </DropdownItem>
-              <DropdownItem tag='a' className="nav-link" to="Herramientas" caret>
+              <DropdownItem href="/Herramientas">
                 Herramientas
               </DropdownItem>
-              <DropdownItem tag='a' className="nav-link" to="" caret>
+              <DropdownItem href="/Soldadura">
                 Soldadura
               </DropdownItem>
-              <DropdownItem tag='a' className="nav-link" to="" caret>
+              <DropdownItem href="/Abrasivos">
                 Abrasivos
               </DropdownItem>
             </DropdownMenu>

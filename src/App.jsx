@@ -22,6 +22,7 @@ const App = () => {
             </div>
           </div>
           <Switch>
+            <Route path="/seguridad">seguridad</Route>
             <Route path="/" exact component={Inicio} />
             <Route path="/inicio" component={Inicio} />
             <Route path="/InduGlobal" component={Inicio} />
