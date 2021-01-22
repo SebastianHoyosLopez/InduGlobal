@@ -2,6 +2,7 @@ import React from "react";
 import NavbarInduGlobal from "./components/NavbarInduGlobal";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Inicio from "./components/Inicio/Inicio";
+import { DropdownItem } from "reactstrap";
 
 const App = () => {
   return (
@@ -21,7 +22,9 @@ const App = () => {
             </div>
           </div>
           <Switch>
-            <Route path="/inicio" component={Inicio} />              
+            <Route path="/" exact component={Inicio} />
+            <Route path="/inicio" component={Inicio} />
+            <Route path="/InduGlobal" component={Inicio} />
             <Route path="/quienesSomos">Quines Somos</Route>
             <Route path="/contactenos">Contáctenos</Route>
           </Switch>

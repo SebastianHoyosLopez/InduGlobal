@@ -42,21 +42,21 @@ export default function Example() {
               style={{ color: "blue" }}
               tag={Link}
               className="nav-link"
-              caret
+              to="" caret
             >
               | PRODUCTOS |
             </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem tag={Link} to="/SefuridadIndustrial">
+              <DropdownItem tag='a' className="nav-link" to="" caret>
                 Seguridad Industrial
               </DropdownItem>
-              <DropdownItem tag={Link} to="/Herramientas">
+              <DropdownItem tag='a' className="nav-link" to="Herramientas" caret>
                 Herramientas
               </DropdownItem>
-              <DropdownItem tag={Link} to="/soldadura">
+              <DropdownItem tag='a' className="nav-link" to="" caret>
                 Soldadura
               </DropdownItem>
-              <DropdownItem tag={Link} to="/Abrasivos">
+              <DropdownItem tag='a' className="nav-link" to="" caret>
                 Abrasivos
               </DropdownItem>
             </DropdownMenu>
