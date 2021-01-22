@@ -16,7 +16,7 @@ const Inicio = () => {
         <div className="imgen-engineering col-4 col-sm-4">
           <img
             
-            style={{ width: "300px" }}
+            style={{ width: "250px" }}
             src="https://imgur.com/YjCY6pJ.jpg"
             alt=""
           />
