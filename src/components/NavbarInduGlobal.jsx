@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import {Link} from 'react-router-dom'
+
 import {
   Navbar,
   Nav,
@@ -24,12 +26,13 @@ export default function Example() {
       <Collapse isOpen={isOpen} navbar>
         <Nav className="mr-auto" navbar>
           <NavItem>
-            <NavLink href="/inicio">INICIO</NavLink>
+            <NavLink tag={Link} to="/inicio">INICIO</NavLink>
           </NavItem>
           <NavItem>
             <NavLink
               style={{ color: "blue", width: "140px" }}
-              href="/quienesSomos"
+              tag={Link}
+              to="/quienesSomos"
             >
               QUIENES SOMOS
             </NavLink>
@@ -37,29 +40,29 @@ export default function Example() {
           <UncontrolledDropdown setActiveFromChild>
             <DropdownToggle
               style={{ color: "blue" }}
-              tag="a"
+              tag={Link}
               className="nav-link"
               caret
             >
               | PRODUCTOS |
             </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem tag="a" href="/SefuridadIndustrial">
+              <DropdownItem tag={Link} to="/SefuridadIndustrial">
                 Seguridad Industrial
               </DropdownItem>
-              <DropdownItem tag="a" href="/Herramientas">
+              <DropdownItem tag={Link} to="/Herramientas">
                 Herramientas
               </DropdownItem>
-              <DropdownItem tag="a" href="/soldadura">
+              <DropdownItem tag={Link} to="/soldadura">
                 Soldadura
               </DropdownItem>
-              <DropdownItem tag="a" href="/Abrasivos">
+              <DropdownItem tag={Link} to="/Abrasivos">
                 Abrasivos
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
           <NavItem>
-            <NavLink href="/contactenos">CONTÁCTENOS</NavLink>
+            <NavLink tag={Link} to="/contactenos">CONTÁCTENOS</NavLink>
           </NavItem>
           <Form inline>
             <Input

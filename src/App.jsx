@@ -21,11 +21,9 @@ const App = () => {
             </div>
           </div>
           <Switch>
-            <Route href="/inicio">
-              <Inicio />
-            </Route>
-            <Route href="/quienesSomos">Quines Somos</Route>
-            <Route href="/contactenos">Contáctenos</Route>
+            <Route path="/inicio" component={Inicio} />              
+            <Route path="/quienesSomos">Quines Somos</Route>
+            <Route path="/contactenos">Contáctenos</Route>
           </Switch>
         </div>
       </div>
