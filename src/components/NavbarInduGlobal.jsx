@@ -1,78 +1,53 @@
-import React, { useState } from "react";
-import {Link} from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 import {
   Navbar,
   Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
   Form,
-  Input,
-  Collapse,
-  NavbarToggler,
-} from "reactstrap";
+  FormControl,
+  Dropdown,
+} from "react-bootstrap";
 
 export default function Example() {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggle = () => setIsOpen(!isOpen);
-
   return (
-    <Navbar color="none" light expand="lg" className="mt-5">
-      <NavbarToggler onClick={toggle} />
-      <Collapse isOpen={isOpen} navbar>
-        <Nav className="mr-auto" navbar>
-          <NavItem>
-            <NavLink tag={Link} to="/inicio">INICIO</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink
-              style={{ color: "blue", width: "140px" }}
-              tag={Link}
-              to="/quienesSomos"
-            >
-              QUIENES SOMOS
-            </NavLink>
-          </NavItem>
-          <UncontrolledDropdown setActiveFromChild>
-            <DropdownToggle
-              style={{ color: "blue" }}
-              className="nav-link"
-              tag={Link}
-            >
-              | PRODUCTOS |
-            </DropdownToggle>
-            <DropdownMenu>
-              <DropdownItem >
-                <Link to="seguridad">Seguridad</Link>
-              </DropdownItem>
-              <DropdownItem >
-                <Link to="herramientas">Herramientas</Link>
-              </DropdownItem>
-              <DropdownItem>
-                <Link to="soldadura">Soldadura</Link>
-              </DropdownItem>
-              <DropdownItem >
-                <Link to="abrasivos">Abrasivos</Link>
-              </DropdownItem>
-            </DropdownMenu>
-          </UncontrolledDropdown>
-          <NavItem>
-            <NavLink tag={Link} to="/contactenos">CONTÁCTENOS</NavLink>
-          </NavItem>
-          <Form inline>
-            <Input
-              type="text"
-              placeholder="Search"
-              className="mr-sm-2"
-              style={{ width: "150px" }}
-            />
-          </Form>
+    <Navbar bg="none" expand="lg" className="mt-5">
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link>
+            <Link to="/" style={{ color: "gray" }}>
+              INICIO
+            </Link>
+          </Nav.Link>
+          <Nav.Link style={{ color: "blue", width: "140px" }}>
+            <Link to="/quienesSomos">QUIENES SOMOS</Link>
+          </Nav.Link>
+          <Dropdown>
+            <Dropdown.Toggle style={{ color: "blue"}} variant="none" id="dropdown-basic">PRODUCTOS</Dropdown.Toggle>
+            <Dropdown.Menu>
+              <Dropdown.Item>
+                <Link to="/seguridad">Seguridad</Link>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <Link to="/herramientas">Herramientas</Link>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <Link to="/soldadura">Soldadura</Link>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <Link to="/abrasivos">Abrasivos</Link>
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+          <Nav.Link>
+            <Link style={{ color: "gray" }} to="/contactenos">CONTÁCTENOS</Link>
+          </Nav.Link>
         </Nav>
-      </Collapse>
+        <Form inline>
+          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+        </Form>
+      </Navbar.Collapse>
     </Navbar>
   );
 }

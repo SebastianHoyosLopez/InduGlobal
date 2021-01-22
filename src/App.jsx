@@ -2,7 +2,6 @@ import React from "react";
 import NavbarInduGlobal from "./components/NavbarInduGlobal";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Inicio from "./components/Inicio/Inicio";
-import { DropdownItem } from "reactstrap";
 
 const App = () => {
   return (

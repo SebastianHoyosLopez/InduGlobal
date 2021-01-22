@@ -1,0 +1,64 @@
+import React from "react";
+import "./CarouselImages.css";
+import { Carousel } from "react-bootstrap";
+
+const CarouselImages = () => {
+  return (
+    <div className="carousel">
+      <Carousel>
+        <Carousel.Item>
+          <div className="row">
+            <div className="col-4">
+              <img
+                className="d-block w-100  mx-0"
+                src="https://imgur.com/2AVdO7z.jpg"
+                alt="First slide"
+              />
+            </div>
+            <div className="col-4">
+              <img
+                className="d-block w-100  mx-0"
+                src="https://imgur.com/dJo9J7l.jpg"
+                alt="Third slide"
+              />
+            </div>
+            <div className="col-4">
+              <img
+                className="d-block w-100  mx-0"
+                src="https://imgur.com/0DYg10C.jpg"
+                alt="Third slide"
+              />
+            </div>
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div className="row">
+            <div className="col-4">
+              <img
+                className="d-block w-100  mx-0"
+                src="https://imgur.com/38qFg3U.jpg"
+                alt="First slide"
+              />
+            </div>
+            <div className="col-4">
+              <img
+                className="d-block w-100  mx-0"
+                src="https://imgur.com/RQbKQ0R.jpg"
+                alt="Third slide"
+              />
+            </div>
+            <div className="col-4">
+              <img
+                className="d-block w-100  mx-0"
+                src="https://imgur.com/dhtav9q.jpg"
+                alt="Third slide"
+              />
+            </div>
+          </div>
+        </Carousel.Item>
+      </Carousel>
+    </div>
+  );
+};
+
+export default CarouselImages;

@@ -1,0 +1,9 @@
+.carousel img {
+    height: 300px;
+    object-fit: scale-down;
+}
+
+.carousel {
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+}
