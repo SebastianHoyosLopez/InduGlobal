@@ -4,7 +4,7 @@
 
 .description {
   background: rgb(5, 71, 152);
-  height: 600px;
+  height: 1000px;
 }
 
 .description p {
@@ -16,4 +16,12 @@ h1 {
   font-family: 'Dancing Script', cursive;
   color: rgb(5, 71, 152);
   font-size: 1.5cm;
+}
+
+
+.carouselImages {
+  position: absolute;
+  z-index: 1;
+  top: 500px;
+  width: 1100px;
 }
