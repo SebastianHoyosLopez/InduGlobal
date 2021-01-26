@@ -14,7 +14,7 @@ const App = () => {
             </div>
             <div className="logo-induGlobal col-4 col-sm-6 col-lg-4 mt-4">
               <img
-                style={{ width: "350px" }}
+                style={{ width: "300px" }}
                 src="https://imgur.com/OjxGccl.jpg"
                 alt="logo empresa"
               />
