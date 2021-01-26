@@ -5,8 +5,8 @@ import "./Inicio.css";
 const Inicio = () => {
   return (
     <>
-      <div className="container item-align-center">
-        <div className="row">
+      <div className="container">
+        <div className="row item-align-center">
           <div className="row item-align-center">
             <div className="col-12 col-sm-6 col-lg-3">
               <img
@@ -25,7 +25,7 @@ const Inicio = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-12 col-md-6 description">
+            <div className="col-12 col-sm-12 col-md-12 col-lg-6 description">
               <p className="mx-2 pt-4">
                 Induglobal Group S.A.S le ofrece todos los implementos y
                 herramientas necesarias para la producción y seguridad en los
@@ -35,16 +35,16 @@ const Inicio = () => {
                 colombiana.
               </p>
             </div>
-            <div className="col-12 col-md-12 col-lg-6 mt-3">
-              <h1>
+            <div className="col-lg-6 mt-3">
+              <h1 className="d-none d-lg-block">
                 ¡Un mundo de soluciones <br /> pensado para ti!
               </h1>
             </div>
           </div>
-          <div className="col-12 col-sm-10 col-lg-12 carouselImages">
+        </div>
+          <div className="col-11 col-sm-10 col-md-10 col-lg-10 d-inline-flex carouselImages mt-4">
             <CarouselImages />
           </div>
-        </div>
       </div>
     </>
   );

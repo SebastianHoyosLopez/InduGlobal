@@ -20,6 +20,7 @@ const App = () => {
               />
             </div>
           </div>
+        </div>
           <Switch>
             <Route path="/" exact component={Inicio} />
             <Route path="/inicio" component={Inicio} />
@@ -31,7 +32,6 @@ const App = () => {
             <Route path="/soldadura">Soldadura</Route>
             <Route path="/abrasivos">Abrasivos</Route>            
           </Switch>
-        </div>
       </div>
     </Router>
   );

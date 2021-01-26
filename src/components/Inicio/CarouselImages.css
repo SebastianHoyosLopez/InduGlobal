@@ -1,9 +1,8 @@
 .carousel img {
-    height: 300px;
-    object-fit: scale-down;
+    height: 180px;
+    object-fit: contain;
 }
 
 .carousel {
-    margin-left: 0.5cm;
-    margin-right: 0.5cm;
+    background-color: rgb(20, 20, 20);
 }
