@@ -12,9 +12,9 @@ const App = () => {
             <div className="col-3 col-sm-3 col-lg-8" style={{ width: "350px" }}>
               <NavbarInduGlobal />
             </div>
-            <div className="logo-induGlobal col-4 col-sm-6 col-lg-4 mt-4">
+            <div className="logo-induGlobal col-4 col-sm-6 col-lg-4 mt-5">
               <img
-                style={{ width: "300px" }}
+                style={{ width: "260px" }}
                 src="https://imgur.com/OjxGccl.jpg"
                 alt="logo empresa"
               />
