@@ -6,7 +6,7 @@
   background: rgb(37, 102, 180);
   position: relative;
   z-index: 1;
-  height: 1100px;
+  height: 1000px;
 }
 
 .description p {
@@ -25,14 +25,14 @@ h1 {
   z-index: 1; 
   margin-left: -25px;
   top: 600px;
-  width: 1300px;
+  width: 1200px;
 }
 
 .images-inicio {
   position: absolute;
   z-index: 2;
-  height: 700px;
-  width: 800px;
+  height: 500px;
+  width: 600px;
   object-fit: scale-down;
   margin-left: -15px;
   margin-top: 550px;
