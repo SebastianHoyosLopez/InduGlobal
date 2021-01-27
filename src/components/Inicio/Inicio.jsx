@@ -6,8 +6,8 @@ const Inicio = () => {
   return (
     <>
       <div className="container">
-        <div className="row item-align-center">
-          <div className="row item-align-center">
+        <div className="row ">
+          <div className="row align-items-center">
             <div className="col-12 col-sm-6 col-lg-3">
               <img
                 className="mb-4 mx-3"
@@ -25,7 +25,7 @@ const Inicio = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-12 col-sm-12 col-md-12 col-lg-6 description">
+            <div className="col-12 col-lg-6 description">
               <p className="mx-2 pt-4">
                 Induglobal Group S.A.S le ofrece todos los implementos y
                 herramientas necesarias para la producción y seguridad en los
@@ -35,6 +35,10 @@ const Inicio = () => {
                 colombiana.
               </p>
             </div>
+            <img
+              className="images-inicio"
+              src="https://imgur.com/9IZHHIF.jpg"
+            />
             <div className="col-lg-6 mt-3">
               <h1 className="d-none d-lg-block">
                 ¡Un mundo de soluciones <br /> pensado para ti!
@@ -42,9 +46,11 @@ const Inicio = () => {
             </div>
           </div>
         </div>
-          <div className="col-11 col-sm-10 col-md-10 col-lg-10 d-inline-flex carouselImages mt-4">
+        <div>
+          <div className="col-11 col-sm-10 col-md-10 col-lg-10 carouselImages">
             <CarouselImages />
           </div>
+        </div>
       </div>
     </>
   );

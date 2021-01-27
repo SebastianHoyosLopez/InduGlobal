@@ -1,0 +1,11 @@
+.footer {
+  background: rgb(5, 71, 152);
+  position: relative;
+  z-index: 3;
+  color: white;
+  margin-top: 0px;
+}
+
+.footer button {
+    border: 10px;
+}

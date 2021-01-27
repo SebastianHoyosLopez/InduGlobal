@@ -2,6 +2,7 @@ import React from "react";
 import NavbarInduGlobal from "./components/NavbarInduGlobal";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Inicio from "./components/Inicio/Inicio";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
               />
             </div>
           </div>
+          <br/>
         </div>
           <Switch>
             <Route path="/" exact component={Inicio} />
@@ -33,6 +35,7 @@ const App = () => {
             <Route path="/abrasivos">Abrasivos</Route>            
           </Switch>
       </div>
+      <Footer />
     </Router>
   );
 };
