@@ -6,15 +6,12 @@
   background: rgb(37, 102, 180);
   position: relative;
   z-index: 1;
-  height: 830px;
+  height: 1000px;
 }
 
 .description p {
+  position: relative;
   color: white;
-}
-
-.eslogan {
-  height: 500px;
 }
 
 h1 {
@@ -34,18 +31,23 @@ h1 {
 
 .images-inicio {
   position: absolute;
-  z-index: 2;
-  width: 520px;
-  object-fit: scale-down;
-  margin-left: -15px;
-  margin-top: 480px;
+  z-index: 3;
+  height: 380px;
+  bottom: 0px;
+  left: 0;
+}
+
+.eslogan {
+  position: relative;
+  height: 500px;
 }
 
 .linea-titulos {
+  position: absolute;
+  bottom: 0px;
   margin-left: -15px;
-  background: white;
   height: 300px;
-  width: 550px;
+  background: white;
 }
 
 

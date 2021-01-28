@@ -36,11 +36,11 @@ const Inicio = () => {
                   el desarrollo de la industria colombiana.
                 </p>
               </p>
+              <img
+                className="images-inicio"
+                src="https://imgur.com/9IZHHIF.jpg"
+              />
             </div>
-            <img
-              className="images-inicio "
-              src="https://imgur.com/9IZHHIF.jpg"
-            />
             <div className="col-md-6">
               <div className="eslogan d-none d-md-block mt-4  ">
                 <h1>
@@ -49,7 +49,7 @@ const Inicio = () => {
               </div>
               <div className="linea-titulos d-none d-md-block">
                 <img
-                  style={{ width: "450px", height: "70px" }}
+                  style={{ width: "440px", height: "70px" }}
                   src="https://imgur.com/jibbr75.jpg"
                 />
                 <h5 className="text-uppercase ml-5">Porqué Elegirnos</h5>
