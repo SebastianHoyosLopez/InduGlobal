@@ -6,7 +6,7 @@
   background: rgb(37, 102, 180);
   position: relative;
   z-index: 1;
-  height: 820px;
+  height: 830px;
 }
 
 .description p {
@@ -38,15 +38,14 @@ h1 {
   width: 520px;
   object-fit: scale-down;
   margin-left: -15px;
-  margin-top: 450px;
+  margin-top: 480px;
 }
 
 .linea-titulos {
-  position: absolute;
   margin-left: -15px;
   background: white;
   height: 300px;
-  width: 500px;
+  width: 550px;
 }
 
 
@@ -61,5 +60,10 @@ h1 {
   z-index: 2;
   padding-top: 20px;
   color: white;
+}
+
+.linea-titulos p {
+  position: relative;
+  z-index: 3;
 }
 
