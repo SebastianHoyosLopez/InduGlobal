@@ -25,7 +25,7 @@ const Inicio = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-12 col-md-6 description">
+            <div className="col-12 col-lg-6 description">
               <p className="mx-4 pt-5">
                 Induglobal Group S.A.S le ofrece todos los implementos y
                 herramientas necesarias para la producción y seguridad en los
@@ -42,14 +42,14 @@ const Inicio = () => {
               />
             </div>
             <div className="col-md-6">
-              <div className="eslogan d-none d-md-block mt-4  ">
+              <div className="eslogan d-none d-lg-block mt-4  ">
                 <h1>
                   ¡Un mundo de soluciones <br /> pensado para ti!
                 </h1>
               </div>
-              <div className="linea-titulos d-none d-md-block">
+              <div className="linea-titulos d-none d-lg-block">
                 <img
-                  style={{ width: "440px", height: "70px" }}
+                  style={{ width: "500px", height: "70px" }}
                   src="https://imgur.com/jibbr75.jpg"
                 />
                 <h5 className="text-uppercase ml-5">Porqué Elegirnos</h5>
