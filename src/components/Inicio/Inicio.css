@@ -13,6 +13,10 @@
   color: white;
 }
 
+.eslogan {
+  height: 600px;
+}
+
 h1 {
   text-align: right;
   font-family: "Dancing Script", cursive;
@@ -28,6 +32,14 @@ h1 {
   width: 1200px;
 }
 
+.linea-titulos {
+  position: absolute;
+  margin-left: -15px;
+  background: white;
+  height: 400px;
+  width: 700px;
+}
+
 .images-inicio {
   position: absolute;
   z-index: 2;
@@ -37,3 +49,17 @@ h1 {
   margin-left: -15px;
   margin-top: 550px;
 }
+
+
+.linea-titulos img {
+  position: absolute;
+  z-index: 1;
+}
+
+.linea-titulos h5 {
+  position: relative;
+  z-index: 2;
+  padding-top: 20px;
+  color: white;
+}
+
