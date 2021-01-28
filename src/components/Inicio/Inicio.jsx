@@ -25,29 +25,31 @@ const Inicio = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-12 col-lg-6 description mb-0">
-              <p className="mx-2 pt-4">
+            <div className="col-12 col-lg-6 description">
+              <p className="mx-4 pt-5">
                 Induglobal Group S.A.S le ofrece todos los implementos y
                 herramientas necesarias para la producción y seguridad en los
-                procesos manufactureros de su empresa; nuestra amplia variedad
-                de productos se enfoca en diversas líneas basadas en soluciones
-                que constantemente se emplean en el desarrollo de la industria
-                colombiana.
+                procesos manufactureros de su empresa; <br />
+                <p className="d-none d-sm-block">
+                  nuestra amplia variedad de productos se enfoca en diversas
+                  líneas basadas en soluciones que constantemente se emplean en
+                  el desarrollo de la industria colombiana.
+                </p>
               </p>
             </div>
             <img
-              className="images-inicio pb-0"
+              className="images-inicio"
               src="https://imgur.com/9IZHHIF.jpg"
             />
-            <div className="col-lg-6 mt-3">
-              <div className="eslogan">
-                <h1 className="d-none d-lg-block">
+            <div className="col-lg-6">
+              <div className="eslogan d-none d-lg-block mt-4">
+                <h1>
                   ¡Un mundo de soluciones <br /> pensado para ti!
                 </h1>
               </div>
               <div className="linea-titulos d-none d-lg-block">
                 <img
-                  style={{ width: "550px" }}
+                  style={{ width: "500px", height: "70px" }}
                   src="https://imgur.com/jibbr75.jpg"
                 />
                 <h5 className="text-uppercase ml-5">Porqué Elegirnos</h5>

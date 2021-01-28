@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer mt-0">
+    <footer className="footer">
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-6 col-lg-3 py-4">
@@ -22,9 +22,9 @@ const Footer = () => {
               <button className="col mx-1 btn btn-secondary">Siguiente</button>
             </div>
           </div>
-          <div className="col-12 col-md-6 col-lg-3 pt-3">
-            <h5 className="text-uppercase text-sm-center pt-2">Línea de productos:</h5>
-            <ul className="list-group pb-4 text-center">
+          <div className="col-12 col-md-6 col-lg-3 pt-3 text-center">
+            <h5 className="text-uppercase pt-2">Línea de productos:</h5>
+            <ul className="list-group pb-4">
               Seguridad Industrial <br />
               Herramientas <br />
               Soldadura <br />
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
