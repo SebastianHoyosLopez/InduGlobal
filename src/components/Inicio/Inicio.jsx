@@ -6,23 +6,26 @@ const Inicio = () => {
   return (
     <>
       <div className="container">
-        <div className="row ">
-          <div className="row align-items-center">
-            <div className="col-12 col-sm-6 col-lg-3">
-              <img
-                className="mb-4 mx-3"
-                style={{ width: "200px" }}
-                src="https://imgur.com/FAtK0gn.jpg"
-                alt="imagen"
-              />
-            </div>
-            <div className="imgen-engineering col-12 col-sm-4 mb-2">
-              <img
-                style={{ width: "250px" }}
-                src="https://imgur.com/YjCY6pJ.jpg"
-                alt=""
-              />
-            </div>
+        <div className="row d-flex">
+          <div className="col-12 col-sm-12 col-lg-6">
+            <h1 className="text-sm-center text-lg-end">
+              ¡Un mundo de soluciones <br/> pensado para ti!
+            </h1>
+          </div>
+          <div className="col-3 col-sm-6 col-md-6 col-lg-3">
+            <img
+              className="mb-4"
+              style={{ width: "200px" }}
+              src="https://imgur.com/FAtK0gn.jpg"
+              alt="imagen"
+            />
+          </div>
+          <div className="imgen-engineering col-3 col-sm-6 col-md-6 col-lg-3">
+            <img
+              style={{ width: "250px" }}
+              src="https://imgur.com/YjCY6pJ.jpg"
+              alt=""
+            />
           </div>
           <div className="row">
             <div className="col-12 col-lg-6 description">
@@ -42,11 +45,6 @@ const Inicio = () => {
               />
             </div>
             <div className="col-md-6">
-              <div className="eslogan d-none d-lg-block mt-4  ">
-                <h1>
-                  ¡Un mundo de soluciones <br /> pensado para ti!
-                </h1>
-              </div>
               <div className="linea-titulos d-none d-lg-block">
                 <img
                   style={{ width: "500px", height: "70px" }}
