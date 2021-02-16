@@ -13,15 +13,9 @@ const App = () => {
             <div className="col-3 col-sm-4 col-lg-9 px-1" style={{ width: "350px" }}>
               <NavbarInduGlobal />
             </div>
-<<<<<<< HEAD
-            <div className="logo-induGlobal col-4 col-sm-6 col-lg-4 mt-5">
-              <img
-                style={{ width: "260px" }}
-=======
             <div className="logo-induGlobal col-4 col-sm-3 col-lg-3 mt-5">
               <img
                 style={{ width: "250px" }}
->>>>>>> updating
                 src="https://imgur.com/OjxGccl.jpg"
                 alt="logo empresa"
               />

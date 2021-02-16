@@ -64,15 +64,8 @@ const Inicio = () => {
             </div>
           </div>
         </div>
-<<<<<<< HEAD
-        <div>
-          <div className="col-11 col-sm-10 col-md-10 col-lg-10 carouselImages">
-            <CarouselImages />
-          </div>
-=======
         <div className="col-11 col-sm-10 col-md-10 col-lg-10 d-inline-flex carouselImages mt-4">
           <CarouselImages />
->>>>>>> updating
         </div>
       </div>
     </>
