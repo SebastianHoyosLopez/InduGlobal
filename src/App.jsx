@@ -1,6 +1,6 @@
 import React from "react";
 import NavbarInduGlobal from "./components/NavbarInduGlobal";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Inicio from "./components/Inicio/Inicio";
 import Footer from "./components/Footer";
 

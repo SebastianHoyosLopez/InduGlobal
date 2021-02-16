@@ -17,7 +17,6 @@ const Footer = () => {
                 className="form-control col"
                 placeholder="email"
                 type="text"
-                value="email"
               />
               <button className="col mx-1 btn btn-secondary">Siguiente</button>
             </div>

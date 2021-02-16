@@ -1,5 +1,12 @@
 .imgen-engineering {
   margin-top: 40px;
+
+}
+
+@media (max-width: 570px) {
+  .imgen-engineering {
+    margin-bottom: 20px;
+  }
 }
 
 .description {
@@ -7,12 +14,10 @@
   position: relative;
   z-index: 1;
   height: 1000px;
-}
-
-.description p {
-  position: relative;
   color: white;
 }
+
+
 
 h1 {
   text-align: right;
@@ -25,11 +30,42 @@ h1 {
   position: absolute;
   z-index: 1;
   margin-left: -18px;
-  top: 570px;
+  top: 500px;
   width: 1200px;
 }
 
-.images-inicio {
+@media (max-width: 990px) {
+  .carouselImages{
+    top: 650px;
+  }
+}
+
+@media (max-width: 770px) {
+  .carouselImages{
+    top: 680px;
+  }
+}
+
+@media (max-width: 575px) {
+  .carouselImages{
+    top: 700px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 533px) {
+  .carouselImages{
+    top: 845px;
+  }
+}
+
+@media (max-width: 350px) {
+  .carouselImages{
+    top: 950px;
+  }
+}
+
+.image-inicio {
   position: absolute;
   z-index: 3;
   height: 380px;
@@ -37,15 +73,26 @@ h1 {
   left: 0;
 }
 
+@media (max-width: 530px) {
+  .image-inicio {
+    position: absolute;
+    z-index: 3;
+    height: 300px;
+  }
+}
+
+@media (max-width: 350px) {
+  .image-inicio {
+    position: absolute;
+    z-index: 3;
+    height: 200px;
+  }
+}
+
 .eslogan {
   position: relative;
   height: 500px;
-}
-
-@media (max-width: 600px) {
-  .linea-titulos {
-    background: red
-  }
+  margin-bottom: 200px;
 }
 
 .linea-titulos {
@@ -54,12 +101,39 @@ h1 {
   margin-left: -15px;
   height: 300px;
   background: white;
-  margin-top: 200px;
+}
+
+@media (max-width: 800px) {
+  .linea-titulos {
+    margin-top: 0px;
+    width: 500px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 380px) {
+  .linea-titulos {
+    width: 350px;
+    height: 400px;
+    background: white;
+  }
 }
 
 .linea-titulos img {
   position: absolute;
   z-index: 1;
+  margin-left: -15px;
+  width: 500px;
+  height: 70px;
+}
+
+@media (max-width: 500px){
+  .linea-titulos img {
+    position: absolute;
+    z-index: 1;
+    width: 400px;
+    height: 65px;
+  }
 }
 
 .linea-titulos h5 {

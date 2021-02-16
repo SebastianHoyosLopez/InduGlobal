@@ -2,3 +2,10 @@
     height: 200px;
     object-fit: contain;
 }
+
+@media (max-width: 580px) {
+    .carousel img {
+        height: 150px;
+        object-fit: contain;
+    }
+}
