@@ -7,11 +7,6 @@ const Inicio = () => {
     <>
       <div className="container">
         <div className="row d-flex">
-          <div className="col-12 col-sm-12 col-lg-6">
-            <h1 className="text-sm-center text-lg-end">
-              ¡Un mundo de soluciones <br/> pensado para ti!
-            </h1>
-          </div>
           <div className="col-3 col-sm-6 col-md-6 col-lg-3">
             <img
               className="mb-4"
@@ -45,7 +40,12 @@ const Inicio = () => {
               />
             </div>
             <div className="col-md-6">
-              <div className="linea-titulos d-none d-lg-block">
+              <div className=" eslogan col-12 col-lg-12 d-none d-lg-block">
+                <h1 className="text-sm-center text-lg-end">
+                  ¡Un mundo de soluciones <br /> pensado para ti!
+                </h1>
+              </div>
+              <div className="linea-titulos">
                 <img
                   style={{ width: "500px", height: "70px" }}
                   src="https://imgur.com/jibbr75.jpg"

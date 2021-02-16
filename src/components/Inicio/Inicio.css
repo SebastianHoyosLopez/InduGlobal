@@ -23,9 +23,9 @@ h1 {
 
 .carouselImages {
   position: absolute;
-  z-index: 1; 
+  z-index: 1;
   margin-left: -18px;
-  top: 670px;
+  top: 570px;
   width: 1200px;
 }
 
@@ -37,15 +37,25 @@ h1 {
   left: 0;
 }
 
+.eslogan {
+  position: relative;
+  height: 500px;
+}
+
+@media (max-width: 600px) {
+  .linea-titulos {
+    background: red
+  }
+}
+
 .linea-titulos {
-  position: absolute;
+  position: relative;
   bottom: 0px;
   margin-left: -15px;
   height: 300px;
   background: white;
+  margin-top: 200px;
 }
-
-
 
 .linea-titulos img {
   position: absolute;
@@ -63,4 +73,3 @@ h1 {
   position: relative;
   z-index: 3;
 }
-
