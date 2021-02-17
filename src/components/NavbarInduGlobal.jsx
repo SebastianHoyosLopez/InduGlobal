@@ -1,5 +1,6 @@
 import React from "react";
 import { LinkContainer } from "react-router-bootstrap";
+import './NavbarInduGlobal.css'
 
 import {
   Navbar,
@@ -15,7 +16,7 @@ export default function Example() {
     <Navbar bg="none" expand="lg" className="mt-5">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="mr-auto menu">
           <LinkContainer to="/">
             <NavLink>INICIO</NavLink>
           </LinkContainer>

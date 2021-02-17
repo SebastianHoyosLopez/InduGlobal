@@ -67,18 +67,17 @@ const Inicio = () => {
           </div>
         </div>
         <div className="d-block d-lg-none linea-titulos col-12 col-md-12 col-lg-12">
-                <img src="https://imgur.com/jibbr75.jpg" alt="" />
-                <h5 className="text-uppercase ml-5">Porqué Elegirnos</h5>
-                <p className="pt-5 px-4 col-12">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                  aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                  nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                  aliquip ex ea commodo consequat. Duis autem vel eum iriure
-                  dolor in hendrerit in vulputate velit esse molestie consequat,
-                  vel
-                </p>
-              </div>
+          <img src="https://imgur.com/jibbr75.jpg" alt="" />
+          <h5 className="text-uppercase ml-5">Porqué Elegirnos</h5>
+          <p className="pt-5 px-4 col-12">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+            consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
+            velit esse molestie consequat, vel
+          </p>
+        </div>
         <div className="col-11 col-sm-10 col-md-10 col-lg-10 d-inline-flex carouselImages mt-4">
           <CarouselImages />
         </div>
