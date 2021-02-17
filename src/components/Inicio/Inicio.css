@@ -17,6 +17,11 @@
   color: white;
 }
 
+@media (max-width: 1400px) {
+  .description {
+    height: 850px;
+  }
+}
 
 
 h1 {
@@ -37,39 +42,39 @@ h1 {
 
 @media (max-width: 990px) {
   .carouselImages{
-    top: 850px;
+    top: 680px;
   }
 }
 
 @media (max-width: 770px) {
   .carouselImages{
-    top: 880px;
+    top: 700px;
   }
 }
 
 @media (max-width: 575px) {
   .carouselImages{
-    top: 900px;
+    top: 700px;
     height: 200px;
   }
 }
 
 @media (max-width: 533px) {
   .carouselImages{
-    top: 990px;
+    top: 850px;
   }
 }
 
 @media (max-width: 400px) {
   .carouselImages{
-    top: 1050px;
+    top: 900px;
     margin-left: 5px;
   }
 }
 
 @media (max-width: 356px) {
   .carouselImages{
-    top: 1130px;
+    top: 980px;
     margin-left: 5px;
   }
 }
@@ -102,6 +107,12 @@ h1 {
   position: relative;
   height: 500px;
   margin-bottom: 200px;
+}
+
+@media (max-width:1400px) {
+  .eslogan {
+    margin-bottom: 50px;
+  }
 }
 
 .linea-titulos {
