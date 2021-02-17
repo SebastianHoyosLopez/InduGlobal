@@ -6,13 +6,13 @@ const Inicio = () => {
   return (
     <>
       <div className="container">
-        <div className="row d-flex">
-          <div className="col-12 col-lg-12 d-block d-lg-none">
-            <h1 className="text-center">
-              ¡Un mundo de soluciones <br /> pensado para ti!
-            </h1>
-          </div>
-          <div className="col-12 col-md-12 col-lg-3">
+        <div className="d-block d-lg-none">
+          <h1 className="text-center">
+            ¡Un mundo de soluciones <br /> pensado para ti!
+          </h1>
+        </div>
+        <div className="row">
+          <div className="col-12 col-md-12 col-lg-3 d-flex justify-content-center">
             <img
               className="mb-2"
               style={{ width: "200px" }}
@@ -20,8 +20,9 @@ const Inicio = () => {
               alt="imagen"
             />
           </div>
-          <div className="imgen-engineering col-12 col-md-12 col-lg-3">
+          <div className="imgen-engineering col-12 col-md-12 col-lg-3 d-flex justify-content-center">
             <img
+              className="mb-2"
               style={{ width: "250px" }}
               src="https://imgur.com/YjCY6pJ.jpg"
               alt=""
@@ -44,12 +45,12 @@ const Inicio = () => {
               />
             </div>
             <div className="col-md-6">
-              <div className=" eslogan col-12 col-lg-12 d-none d-lg-block">
+              <div className=" eslogan col-lg-12 d-none d-lg-block">
                 <h1 className="text-sm-center">
                   ¡Un mundo de soluciones <br /> pensado para ti!
                 </h1>
               </div>
-              <div className="linea-titulos col-12 col-md-12">
+              <div className="linea-titulos col-12 col-md-12 col-lg-12">
                 <img src="https://imgur.com/jibbr75.jpg" alt="" />
                 <h5 className="text-uppercase ml-5">Porqué Elegirnos</h5>
                 <p className="pt-5 px-4 col-12">

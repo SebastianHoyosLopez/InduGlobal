@@ -19,7 +19,7 @@ export default function Example() {
           <LinkContainer to="/">
             <NavLink>INICIO</NavLink>
           </LinkContainer>
-          <LinkContainer to="/quienesSomos" style={{color: "blue"}}>
+          <LinkContainer to="/quienesSomos" style={{width: "140px" , color: "blue"}}>
             <NavLink>
               QUIENES SOMOS
             </NavLink>

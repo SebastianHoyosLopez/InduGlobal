@@ -32,36 +32,45 @@ h1 {
   margin-left: -18px;
   top: 500px;
   width: 1200px;
+  margin-left: 10px;
 }
 
 @media (max-width: 990px) {
   .carouselImages{
-    top: 650px;
+    top: 850px;
   }
 }
 
 @media (max-width: 770px) {
   .carouselImages{
-    top: 680px;
+    top: 880px;
   }
 }
 
 @media (max-width: 575px) {
   .carouselImages{
-    top: 700px;
+    top: 900px;
     height: 200px;
   }
 }
 
 @media (max-width: 533px) {
   .carouselImages{
-    top: 845px;
+    top: 990px;
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   .carouselImages{
-    top: 950px;
+    top: 1050px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 356px) {
+  .carouselImages{
+    top: 1130px;
+    margin-left: 5px;
   }
 }
 

@@ -12,7 +12,7 @@ const Footer = () => {
               Sucríbase a nuestro boletín y reciba noticias sobre nuestro nuevos
               productos
             </p>
-            <div className="form-group row">
+            <div className="form-group row mx-2">
               <input
                 className="form-control col"
                 placeholder="email"
