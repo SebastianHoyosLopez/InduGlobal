@@ -1,11 +1,17 @@
 .footer {
-  background: rgb(5, 71, 152);
+  background: #014995;
   position: relative;
-  z-index: 3;
   color: white;
-  margin-top: 0px;
 }
 
-.footer button {
-    border: 10px;
+#whatsapp {
+  position: relative;
+  z-index: absolute;
+  height: 40px;
+  margin-top: 20px;
+}
+
+@media ()
+#whatsapp {
+
 }

@@ -18,7 +18,7 @@ export default function Example() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto menu">
           <LinkContainer to="/">
-            <NavLink>INICIO</NavLink>
+            <NavLink className="text-secondary">INICIO</NavLink>
           </LinkContainer>
           <LinkContainer to="/quienesSomos" style={{width: "140px" , color: "blue"}}>
             <NavLink>
@@ -57,11 +57,12 @@ export default function Example() {
             </Dropdown.Menu>
           </Dropdown>
           <LinkContainer to="/contactenos">
-            <NavLink>CONTÁCTENOS</NavLink>
+            <NavLink className="text-secondary">CONTÁCTENOS</NavLink>
           </LinkContainer>
         </Nav>
         <Form inline>
-          <FormControl type="text" placeholder="Search" />
+          <FormControl size="sm" type="text" placeholder="Search" />
+          <img src="https://imgur.com/LhDajo1.jpg" alt=""/>
         </Form>
       </Navbar.Collapse>
     </Navbar>

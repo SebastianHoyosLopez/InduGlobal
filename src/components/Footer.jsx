@@ -4,15 +4,17 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="container">
+      <div className=" container d-flex justify-content-end">
+        <img id="whatsapp" src="https://imgur.com/wE5RGRe.jpg" alt="whatsapp" />
+      </div>
+      <div className="container my-2">
         <div className="row">
-          <div className="col-12 col-md-6 col-lg-3 py-4">
-            <h5 className="text-uppercase">Sucríbase a nuestro boletín</h5>
-            <p>
+          <div className="col-12 col-md-8 col-lg-4 py-5">
+            <h3>
               Sucríbase a nuestro boletín y reciba noticias sobre nuestro nuevos
               productos
-            </p>
-            <div className="form-group row mx-2">
+            </h3>
+            <div className="form-group row mx-1 my-4">
               <input
                 className="form-control col"
                 placeholder="email"
@@ -21,32 +23,30 @@ const Footer = () => {
               <button className="col mx-1 btn btn-secondary">Siguiente</button>
             </div>
           </div>
-          <div className="col-12 col-md-6 col-lg-3 pt-3 text-center">
-            <h5 className="text-uppercase pt-2">Línea de productos:</h5>
-            <ul className="list-group pb-4">
-              Seguridad Industrial <br />
-              Herramientas <br />
-              Soldadura <br />
-              Abrasivos <br />
-            </ul>
-          </div>
-          <div className="col-6 col-lg-3 text-uppercase text-end pt-5">
+          <div className="col-12 col-lg-3 my-4">
+            <h3>UBICACIÓN:</h3>
+            <h5>Cl. 2 # 55-88, Medellin - Colombia</h5>
+            <h3>CONTACTO:</h3>
             <h5>
-              <img
-                style={{ height: "25px" }}
-                className="mr-2"
-                src="https://imgur.com/kY2q8wE.jpg"
-                alt="icono-ubicación"
-              />
-              Ubicación:
+              PBX: (4) 5831616-(+57)3504304542 <br />
+              Bogotá: (+57)3005061558
             </h5>
-            <p>
-              Cl. 2 # 55-88 <br /> Medellin - Colombia
-            </p>
           </div>
-          <div className="col-6 col-lg-3 text-uppercase text-center pt-5">
-            <h5>Contacto:</h5>
-            <p>PBX: (4) 5831616 <br/>+573504304542</p>
+          <div className="col-12 col-lg-5 my-5">
+            <img
+              className="col-8"
+              src="https://imgur.com/kRXUxew.jpg"
+              alt="engineeringWelding"
+            />
+            <img
+              className="col-4"
+              style={{ marginBottom: "12px" }}
+              src="https://imgur.com/Hy51xlO.jpg"
+              alt="indusafe"
+            />
+            <h5 className="text-center">
+              enginneringwelding.com.co – indusafe.com.co{" "}
+            </h5>
           </div>
         </div>
       </div>

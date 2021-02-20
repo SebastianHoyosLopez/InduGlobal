@@ -1,85 +1,84 @@
 import React from "react";
-import CarouselImages from "./CarouselImages";
+import { Carousel } from "react-bootstrap";
 import "./Inicio.css";
 
 const Inicio = () => {
   return (
     <>
-      <div className="container">
-        <div className="d-block d-lg-none">
-          <h1 className="text-center">
-            ¡Un mundo de soluciones <br /> pensado para ti!
-          </h1>
-        </div>
-        <div className="row">
-          <div className="col-12 col-md-12 col-lg-3 d-flex justify-content-center">
-            <img
-              className="mb-2"
-              style={{ width: "200px" }}
-              src="https://imgur.com/FAtK0gn.jpg"
-              alt="imagen"
-            />
-          </div>
-          <div className="imgen-engineering col-12 col-md-12 col-lg-3 d-flex justify-content-center">
-            <img
-              className="mb-2"
-              style={{ width: "250px" }}
-              src="https://imgur.com/YjCY6pJ.jpg"
-              alt=""
-            />
-          </div>
-          <div className="row">
-            <div className="col-12 col-lg-6 description">
-              <p className="mx-4 pt-5">
-                Induglobal Group S.A.S le ofrece todos los implementos y
-                herramientas necesarias para la producción y seguridad en los
-                procesos manufactureros de su empresa, nuestra amplia variedad
-                de productos se enfoca en diversas líneas basadas en soluciones
-                que constantemente se emplean en el desarrollo de la industria
-                colombiana.
-              </p>
-              <img
-                className="image-inicio"
-                src="https://imgur.com/9IZHHIF.jpg"
-                alt=""
-              />
-            </div>
-            <div className="col-md-6">
-              <div className=" eslogan col-lg-12 d-none d-lg-block">
-                <h1 className="text-sm-center">
-                  ¡Un mundo de soluciones <br /> pensado para ti!
-                </h1>
-              </div>
-              <div className="d-none d-lg-block linea-titulos col-12 col-md-12 col-lg-12">
-                <img src="https://imgur.com/jibbr75.jpg" alt="" />
-                <h5 className="text-uppercase ml-5">Porqué Elegirnos</h5>
-                <p className="pt-5 px-4 col-12">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                  aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                  nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                  aliquip ex ea commodo consequat. Duis autem vel eum iriure
-                  dolor in hendrerit in vulputate velit esse molestie consequat,
-                  vel
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="d-block d-lg-none linea-titulos col-12 col-md-12 col-lg-12">
-          <img src="https://imgur.com/jibbr75.jpg" alt="" />
-          <h5 className="text-uppercase ml-5">Porqué Elegirnos</h5>
-          <p className="pt-5 px-4 col-12">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-            consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
-            velit esse molestie consequat, vel
+      <Carousel
+        id="carousel"
+        className="carousel-fade"
+        autoPlay={true}
+        controls={true}
+        indicators={true}
+      >
+        <Carousel.Item interval={9000}>
+          <img
+            className="d-block w-100"
+            src="https://imgur.com/fG0NZqJ.jpg"
+            alt="imagenes de muestra 1"
+          />
+          <Carousel.Caption>
+            <h2 className="text-start mb-3 col-12 col-md-6 col-lg-4">
+              TENEMOS UN MUNDO DE SOLUCIONES PENSADO PARA TI
+              <hr />
+            </h2>
+            <h2 className="col text-start">VER MÁS</h2>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item interval={9000}>
+          <img
+            className="d-block w-100"
+            src="https://imgur.com/33Fhtif.jpg"
+            alt="imagenes de muestra 2"
+          />
+          <Carousel.Caption>
+            <h2 className="text-start mb-3 col-12 col-md-6 col-lg-4">
+              TODOS LOS IMPLEMENTOS DE SEGURIDAD QUE SU EMPRESA NECESITA
+              <hr />
+            </h2>
+            <h2 className="col text-start">VER MÁS</h2>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item interval={9000}>
+          <img
+            className="d-block w-100"
+            src="https://imgur.com/Xf9UCfv.jpg"
+            alt="imagenes de muestra 3"
+          />
+          <Carousel.Caption>
+            <h2 className="text-start mb-3 col-12 col-md-6 col-lg-4 text-muted">
+              MASCARILLAS CERTIFICADAS PARA PROTECCIÓN Y BIOSEGURIDAD
+              <hr />
+            </h2>
+            <h2 className="col text-start text-muted">VER MÁS</h2>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+      <div className="body-inicio m-5 row">
+        <div className="col-12 col-lg-6">
+          <img
+            className="col-12"
+            src="https://imgur.com/y2XizAX.jpg"
+            alt="Seguridad IGS"
+          />
+          <p className="m-3">
+            Induglobal Group S.A.S le ofrece todos los implementos y
+            herramientas necesarias para la producción y seguridad en los
+            procesos manufactureros de su empresa; nuestra amplia variedad de
+            productos se enfoca en diversas líneas basadas en soluciones que
+            constantemente se emplean en el desarrollo de la industria
+            colombiana.
           </p>
         </div>
-        <div className="col-11 col-sm-10 col-md-10 col-lg-10 d-inline-flex carouselImages mt-4">
-          <CarouselImages />
+        <div className="col-12 col-lg-6">
+          <img className="col-4 mb-4" src="https://imgur.com/OpLj5rf.jpg" alt="" />
+          <img className="col-4 mb-4" src="https://imgur.com/rHzdpg5.jpg" alt="" />
+          <img className="col-4 mb-4" src="https://imgur.com/cQAMqYl.jpg" alt="" />
+          <img className="col-4 mb-1" src="https://imgur.com/Qz3Xbqr.jpg" alt="" />
+          <img className="col-4 mb-1" src="https://imgur.com/Gh8Vjm7.jpg" alt="" />
+          <img className="col-4 mb-1" src="https://imgur.com/pZAOCC9.jpg" alt="" />
+          <h4 className="col-12 text-end mt-2" style={{color: "#014995"}}>IMPLEMENTOS Y HERRAMIENTAS</h4>
         </div>
       </div>
     </>
