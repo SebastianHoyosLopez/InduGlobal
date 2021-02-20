@@ -5,7 +5,13 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className=" container d-flex justify-content-end">
-        <img id="whatsapp" src="https://imgur.com/wE5RGRe.jpg" alt="whatsapp" />
+        <a href="https://wa.link/boci2f">
+          <img
+            id="whatsapp"
+            src="https://imgur.com/wE5RGRe.jpg"
+            alt="whatsapp"
+          />
+        </a>
       </div>
       <div className="container my-2">
         <div className="row">

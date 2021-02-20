@@ -1,6 +1,25 @@
-#carousel h1 {
+#carousel h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 1131px) {
+  #carousel h2 {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 1122px) {
+  #carousel h2 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1142px) {
+  #carousel h2 {
+    margin-bottom: 0px;
+  }
 }
 
 @media (max-width: 850px) {

@@ -15,6 +15,20 @@ const Inicio = () => {
         <Carousel.Item interval={9000}>
           <img
             className="d-block w-100"
+            src="https://imgur.com/Xf9UCfv.jpg"
+            alt="imagenes de muestra 3"
+          />
+          <Carousel.Caption>
+            <h2 className="text-start mb-3 col-12 col-md-8 col-lg-4 text-muted">
+              MASCARILLAS CERTIFICADAS PARA PROTECCIÓN Y BIOSEGURIDAD
+              <hr />
+            </h2>
+            <h2 className="col text-start text-muted">VER MÁS</h2>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item interval={9000}>
+          <img
+            className="d-block w-100"
             src="https://imgur.com/fG0NZqJ.jpg"
             alt="imagenes de muestra 1"
           />
@@ -33,25 +47,11 @@ const Inicio = () => {
             alt="imagenes de muestra 2"
           />
           <Carousel.Caption>
-            <h2 className="text-start mb-3 col-12 col-md-6 col-lg-4">
+            <h2 className="text-start mb-3 col-12 col-md-8 col-lg-4">
               TODOS LOS IMPLEMENTOS DE SEGURIDAD QUE SU EMPRESA NECESITA
               <hr />
             </h2>
             <h2 className="col text-start">VER MÁS</h2>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={9000}>
-          <img
-            className="d-block w-100"
-            src="https://imgur.com/Xf9UCfv.jpg"
-            alt="imagenes de muestra 3"
-          />
-          <Carousel.Caption>
-            <h2 className="text-start mb-3 col-12 col-md-6 col-lg-4 text-muted">
-              MASCARILLAS CERTIFICADAS PARA PROTECCIÓN Y BIOSEGURIDAD
-              <hr />
-            </h2>
-            <h2 className="col text-start text-muted">VER MÁS</h2>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
@@ -72,13 +72,39 @@ const Inicio = () => {
           </p>
         </div>
         <div className="col-12 col-lg-6">
-          <img className="col-4 mb-4" src="https://imgur.com/OpLj5rf.jpg" alt="" />
-          <img className="col-4 mb-4" src="https://imgur.com/rHzdpg5.jpg" alt="" />
-          <img className="col-4 mb-4" src="https://imgur.com/cQAMqYl.jpg" alt="" />
-          <img className="col-4 mb-1" src="https://imgur.com/Qz3Xbqr.jpg" alt="" />
-          <img className="col-4 mb-1" src="https://imgur.com/Gh8Vjm7.jpg" alt="" />
-          <img className="col-4 mb-1" src="https://imgur.com/pZAOCC9.jpg" alt="" />
-          <h4 className="col-12 text-end mt-2" style={{color: "#014995"}}>IMPLEMENTOS Y HERRAMIENTAS</h4>
+          <img
+            className="col-6 col-lg-4 mb-4"
+            src="https://imgur.com/Qz3Xbqr.jpg"
+            alt=""
+          />
+          <img
+            className="col-6 col-lg-4 mb-4"
+            src="https://imgur.com/rHzdpg5.jpg"
+            alt=""
+          />
+          <img
+            className="col-6 col-lg-4 mb-4"
+            src="https://imgur.com/Gh8Vjm7.jpg"
+            alt=""
+          />
+          <img
+            className="col-6 col-lg-4 mb-1"
+            src="https://imgur.com/cQAMqYl.jpg"
+            alt=""
+          />
+          <img
+            className="col-6 col-lg-4 mb-1"
+            src="https://imgur.com/pZAOCC9.jpg"
+            alt=""
+          />
+          <img
+            className="col-6 col-lg-4 mb-1"
+            src="https://imgur.com/OpLj5rf.jpg"
+            alt=""
+          />
+          <h4 className="col-12 text-end mt-2" style={{ color: "#014995" }}>
+            IMPLEMENTOS Y HERRAMIENTAS
+          </h4>
         </div>
       </div>
     </>

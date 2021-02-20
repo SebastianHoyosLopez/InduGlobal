@@ -1,4 +1,22 @@
 .menu {
   font-family: 'Titillium Web', sans-serif;
   font-weight: bold;
+  background: #EAE8E9;
+}
+
+#redesSociles {
+  position: absolute;
+  z-index: 2;
+  margin-top: 20px;
+  margin-left: -25px;
+}
+
+@media (max-width: 575px){
+  #redesSociles {
+    margin-left: 10px;
+  }
+}
+
+#redesSociles img {
+  height: 20px;
 }
