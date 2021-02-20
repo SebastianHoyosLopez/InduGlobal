@@ -55,7 +55,7 @@ const Inicio = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <div className="body-inicio m-5 row">
+      <div className="m-5 row">
         <div className="col-12 col-lg-6">
           <img
             className="col-12"
@@ -71,34 +71,34 @@ const Inicio = () => {
             colombiana.
           </p>
         </div>
-        <div className="col-12 col-lg-6">
+        <div id="recuadros" className="col-12 col-lg-6">
           <img
-            className="col-6 col-lg-4 mb-4"
+            className="col-6 col-lg-4 p-1"
             src="https://imgur.com/Qz3Xbqr.jpg"
             alt=""
           />
           <img
-            className="col-6 col-lg-4 mb-4"
+            className="col-6 col-lg-4 p-1"
             src="https://imgur.com/rHzdpg5.jpg"
             alt=""
           />
           <img
-            className="col-6 col-lg-4 mb-4"
+            className="col-6 col-lg-4 p-1"
             src="https://imgur.com/Gh8Vjm7.jpg"
             alt=""
           />
           <img
-            className="col-6 col-lg-4 mb-1"
+            className="col-6 col-lg-4 p-1"
             src="https://imgur.com/cQAMqYl.jpg"
             alt=""
           />
           <img
-            className="col-6 col-lg-4 mb-1"
+            className="col-6 col-lg-4 p-1"
             src="https://imgur.com/pZAOCC9.jpg"
             alt=""
           />
           <img
-            className="col-6 col-lg-4 mb-1"
+            className="col-6 col-lg-4 p-1"
             src="https://imgur.com/OpLj5rf.jpg"
             alt=""
           />
