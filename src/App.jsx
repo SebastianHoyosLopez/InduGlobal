@@ -27,12 +27,12 @@ const App = () => {
             <Route path="/" exact component={Inicio} />
             <Route path="/inicio" component={Inicio} />
             <Route path="/InduGlobal" component={Inicio} />
-            <Route path="/quienesSomos">Quines Somos</Route>
-            <Route path="/contactenos">Contáctenos</Route>
-            <Route path="/seguridad">seguridad</Route>
-            <Route path="/herramientas">herramientas</Route>
-            <Route path="/soldadura">Soldadura</Route>
-            <Route path="/abrasivos">Abrasivos</Route>            
+            <Route path="/quienesSomos">{Inicio}</Route>
+            <Route path="/contactenos">{Inicio}</Route>
+            <Route path="/seguridad">{Inicio}</Route>
+            <Route path="/herramientas">{Inicio}</Route>
+            <Route path="/soldadura">{Inicio}</Route>
+            <Route path="/abrasivos">{Inicio}</Route>            
           </Switch>
       </div>
       <Footer />
