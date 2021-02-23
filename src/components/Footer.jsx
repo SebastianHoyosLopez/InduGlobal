@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-12 col-md-8 col-lg-4 py-5">
             <h3>
-              Sucríbase a nuestro boletín y reciba noticias sobre nuestro nuevos
+              Sucríbase a nuestro boletín y reciba noticias sobre nuevos
               productos
             </h3>
             <div className="form-group row mx-1 my-4">

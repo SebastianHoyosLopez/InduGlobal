@@ -23,10 +23,7 @@ export default function Example() {
           />
         </a>
         <a href="https://www.facebook.com/induglobalferretera">
-          <img
-            src="https://imgur.com/i05dx2R.jpg"
-            alt="facebook"
-          />
+          <img src="https://imgur.com/i05dx2R.jpg" alt="facebook" />
         </a>
       </div>
       <Navbar bg="none" expand="lg" className="mt-5">
@@ -38,13 +35,13 @@ export default function Example() {
             </LinkContainer>
             <LinkContainer
               to="/quienesSomos"
-              style={{ width: "140px", color: "blue", background: "white" }}
+              style={{ width: "140px", color: "#014995", background: "white" }}
             >
               <NavLink>QUIENES SOMOS</NavLink>
             </LinkContainer>
             <Dropdown>
               <Dropdown.Toggle
-                style={{ color: "blue", background: "white" }}
+                style={{ color: "#014995", background: "white" }}
                 variant="none"
                 id="dropdown-basic"
               >
@@ -53,7 +50,7 @@ export default function Example() {
               <Dropdown.Menu>
                 <Dropdown.Item>
                   <LinkContainer to="/seguridad">
-                    <NavLink>Seguridad</NavLink>
+                    <NavLink>Seguridad Industrial</NavLink>
                   </LinkContainer>
                 </Dropdown.Item>
                 <Dropdown.Item>
@@ -78,8 +75,8 @@ export default function Example() {
             </LinkContainer>
           </Nav>
           <Form inline>
-            <FormControl size="sm" type="text" placeholder="Search" />
-            <img src="https://imgur.com/LhDajo1.jpg" alt="" />
+            <FormControl className="buscador" size="sm" type="text" placeholder="Search" />
+            <img className="lupa" src="https://imgur.com/LhDajo1.jpg" alt="lupa" />
           </Form>
         </Navbar.Collapse>
       </Navbar>
