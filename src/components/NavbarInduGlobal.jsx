@@ -41,11 +41,11 @@ export default function Example() {
             </LinkContainer>
             <Dropdown>
               <Dropdown.Toggle
-                style={{ color: "#014995" }}
+                style={{ color: "#014995", marginLeft: "-12px" }}
                 variant="none"
                 id="dropdown-basic"
               >
-                PRODUCTOS
+               <strong>PRODUCTOS</strong> 
               </Dropdown.Toggle>
               <Dropdown.Menu>
                 <Dropdown.Item>
