@@ -9,13 +9,13 @@
 #texto-imagenes1 {
   position: relative;
   color: white;
-  margin-top: 150px;
+  margin-top: 130px;
 }
 
 #texto-imagenes2 {
   position: relative;
   color: white;
-  margin-top: 150px;
+  margin-top: 130px;
 }
 
 @media (max-width:1199px){
@@ -42,7 +42,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 775px) {
   .img-texto {
     margin-top: 100px;
   }
@@ -90,8 +90,11 @@
 
 @media (max-width: 370px) {
   #texto-imagenes2 {
-    margin-top: 120px;
+    margin-top: 100px;
     width: 90%;
-    font-size: 70%;
+    font-size: 50%;
+  }
+  #texto-imagenes1 {
+    margin-top: 40px;
   }
 }
