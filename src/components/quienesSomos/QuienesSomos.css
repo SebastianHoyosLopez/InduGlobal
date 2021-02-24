@@ -56,7 +56,7 @@
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 478px) {
   #texto-imagenes2 {
     margin-top: 200px;
   }
@@ -65,7 +65,7 @@
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 440px) {
   #texto-imagenes2 {
     margin-top: 190px;
     margin-left: 20px;
@@ -75,7 +75,7 @@
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
   #texto-imagenes2 {
     margin-top: 140px;
     width: 90%;
@@ -84,6 +84,14 @@
   #texto-imagenes1 {
     margin-left: 25px;
     margin-top: 60px;
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 370px) {
+  #texto-imagenes2 {
+    margin-top: 120px;
+    width: 90%;
     font-size: 70%;
   }
 }
