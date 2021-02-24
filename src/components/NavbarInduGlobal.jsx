@@ -30,18 +30,18 @@ export default function Example() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto menu">
-            <LinkContainer to="/" style={{ background: "white" }}>
+            <LinkContainer to="/">
               <NavLink className="text-secondary">INICIO</NavLink>
             </LinkContainer>
             <LinkContainer
               to="/quienesSomos"
-              style={{ width: "140px", color: "#014995", background: "white" }}
+              style={{ width: "140px", color: "#014995" }}
             >
               <NavLink>QUIENES SOMOS</NavLink>
             </LinkContainer>
             <Dropdown>
               <Dropdown.Toggle
-                style={{ color: "#014995", background: "white" }}
+                style={{ color: "#014995" }}
                 variant="none"
                 id="dropdown-basic"
               >
@@ -70,7 +70,7 @@ export default function Example() {
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-            <LinkContainer to="/contactenos" style={{ background: "white" }}>
+            <LinkContainer to="/contactenos" >
               <NavLink className="text-secondary">CONTÁCTENOS</NavLink>
             </LinkContainer>
           </Nav>

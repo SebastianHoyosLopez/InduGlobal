@@ -1,0 +1,82 @@
+#body-QuienesSomos {
+  font-family: "Titillium Web", sans-serif;
+}
+
+#imagen-body {
+  position: absolute;
+}
+
+#texto-imagenes1 {
+  position: relative;
+  color: white;
+  margin-top: 120px;
+}
+
+#texto-imagenes2 {
+  position: relative;
+  color: white;
+  margin-top: 120px;
+}
+
+@media (max-width: 991px) {
+  .img-texto {
+    margin-top: 150px;
+  }
+  #texto-imagenes1 {
+    margin-bottom: -70px;
+    margin-top: 180px;
+  }
+
+  #texto-imagenes2 {
+    margin-bottom: 30px;
+    margin-top: 380px;
+  }
+}
+
+@media (max-width: 767px) {
+  .img-texto {
+    margin-top: 100px;
+  }
+  #texto-imagenes2 {
+    margin-bottom: 50px;
+    margin-top: 230px;
+  }
+  #texto-imagenes1 {
+    margin-top: 130px;
+    margin-bottom: -30px;
+  }
+}
+
+@media (max-width: 470px) {
+  #texto-imagenes2 {
+    margin-top: 200px;
+  }
+  #texto-imagenes1 {
+    margin-top: 110px;
+  }
+}
+
+@media (max-width: 420px) {
+  #texto-imagenes2 {
+    margin-top: 130px;
+    margin-left: 20px;
+  }
+  #texto-imagenes1 {
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 380px) {
+  #texto-imagenes2 {
+    margin-left: 35px;
+    margin-top: 120px;
+    width: 90%;
+    font-size: 70%;
+  }
+  #texto-imagenes1 {
+    margin-left: 35px;
+    margin-top: 60px;
+    width: 90%;
+    font-size: 70%;
+  }
+}
