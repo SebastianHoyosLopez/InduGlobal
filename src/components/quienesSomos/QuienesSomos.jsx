@@ -45,7 +45,9 @@ const QuienesSomos = () => {
             <div id="texto-imagenes1">
               <div className="text-center">
                 <h2 className="text-center">Necesitas asesoría</h2>
-                <button>CONTÁCTANOS</button>
+                <form action="https://wa.link/boci2f">
+                  <input type="submit" value="CONTÁCTANOS" className="btn btn-light"/>
+                </form>
               </div>
             </div>
           </div>
@@ -59,7 +61,9 @@ const QuienesSomos = () => {
             <div id="texto-imagenes2">
               <div className="text-center">
                 <h2>¿Quieres ser distribuidor?</h2>
-                <button>CONTÁCTANOS</button>
+                <form action="https://wa.link/boci2f" style={{borderRadius: "10px"}}>
+                  <input type="submit" value="CONTÁCTANOS" className="btn btn-light"/>
+                </form>
               </div>
             </div>
           </div>
