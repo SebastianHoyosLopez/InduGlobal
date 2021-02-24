@@ -67,7 +67,7 @@
 
 @media (max-width: 420px) {
   #texto-imagenes2 {
-    margin-top: 130px;
+    margin-top: 190px;
     margin-left: 20px;
   }
   #texto-imagenes1 {
@@ -77,15 +77,13 @@
 
 @media (max-width: 380px) {
   #texto-imagenes2 {
-    margin-left: 35px;
-    margin-top: 120px;
+    margin-top: 140px;
     width: 90%;
     font-size: 70%;
   }
   #texto-imagenes1 {
-    margin-left: 35px;
+    margin-left: 25px;
     margin-top: 60px;
-    width: 90%;
     font-size: 70%;
   }
 }

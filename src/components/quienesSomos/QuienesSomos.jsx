@@ -35,7 +35,7 @@ const QuienesSomos = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-12 col-lg-6 my-2">
+          <div className="col-12 col-lg-6 my-2 px-0">
             <img
               className="col"
               id="imagen-body"
@@ -49,7 +49,7 @@ const QuienesSomos = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-6 my-2">
+          <div className="col-12 col-lg-6 my-2 px-0">
             <img
               className="col img-texto"
               id="imagen-body"
@@ -65,22 +65,26 @@ const QuienesSomos = () => {
           </div>
         </div>
         <div className="row my-4" id="misionVision">
-          <div className="col-12 col-lg-6 my-2">
+          <div className="col-12 col-lg-6 my-4">
             <h3 style={{ color: "#014995" }} className="text-start">
               <strong>Misión</strong>
             </h3>
-            Brindar un amplio portafolio de productos integrando diferentes
-            sectores de la industria, permitiendo centralizar los procesos de
-            compras para optimizar recursos, garantizando la calidad y
-            satisfacción de nuestros clientes.
+            <p className="mt-4">
+              Brindar un amplio portafolio de productos integrando diferentes
+              sectores de la industria, permitiendo centralizar los procesos de
+              compras para optimizar recursos, garantizando la calidad y
+              satisfacción de nuestros clientes.
+            </p>
           </div>
-          <div className="col-12 col-lg-6 my-2">
+          <div className="col-12 col-lg-6 my-4">
             <h3 style={{ color: "#014995" }} className="text-start">
               <strong>Visión</strong>
             </h3>
-            Para el año 2022 lograr el posicionamiento y reconocimiento nacional
-            como una empresa que ofrece un portafolio integral de productos y
-            soluciones para la industria en general.
+            <p className="mt-4">
+              Para el año 2022 lograr el posicionamiento y reconocimiento
+              nacional como una empresa que ofrece un portafolio integral de
+              productos y soluciones para la industria en general.
+            </p>
           </div>
         </div>
       </div>
