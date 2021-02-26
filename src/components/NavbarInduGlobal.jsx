@@ -49,7 +49,7 @@ export default function Example() {
               </Dropdown.Toggle>
               <Dropdown.Menu>
                 <Dropdown.Item>
-                  <LinkContainer to="/seguridad">
+                  <LinkContainer to="/seguridadIndustrial">
                     <NavLink>Seguridad Industrial</NavLink>
                   </LinkContainer>
                 </Dropdown.Item>

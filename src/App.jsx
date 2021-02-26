@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Inicio from "./components/Inicio/Inicio";
 import Footer from "./components/Footer";
 import QuienesSomos from "./components/quienesSomos/QuienesSomos";
+import SeguridadIndustrial from "./components/seguridadIndustrial/SeguridadIndustrial";
 
 const App = () => {
   return (
@@ -34,8 +35,8 @@ const App = () => {
           <Route path="/inicio" component={Inicio} />
           <Route path="/InduGlobal" component={Inicio} />
           <Route path="/quienesSomos">{QuienesSomos}</Route>
+          <Route path="/seguridadIndustrial">{SeguridadIndustrial}</Route>
           <Route path="/contactenos">{Inicio}</Route>
-          <Route path="/seguridad">{Inicio}</Route>
           <Route path="/herramientas">{Inicio}</Route>
           <Route path="/soldadura">{Inicio}</Route>
           <Route path="/abrasivos">{Inicio}</Route>
