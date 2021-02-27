@@ -12,7 +12,7 @@ const Inicio = () => {
         controls={true}
         indicators={true}
       >
-        <Carousel.Item interval={9000}>
+        <Carousel.Item interval={3000}>
           <img
             className="d-block w-100"
             src="https://imgur.com/Xf9UCfv.jpg"
@@ -26,7 +26,7 @@ const Inicio = () => {
             <h2 className="col text-start text-muted">VER MÁS</h2>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={9000}>
+        <Carousel.Item interval={3000}>
           <img
             className="d-block w-100"
             src="https://imgur.com/fG0NZqJ.jpg"
@@ -40,7 +40,7 @@ const Inicio = () => {
             <h2 className="col text-start">VER MÁS</h2>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={9000}>
+        <Carousel.Item interval={3000}>
           <img
             className="d-block w-100"
             src="https://imgur.com/33Fhtif.jpg"

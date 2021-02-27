@@ -1,0 +1,6 @@
+@media (max-width: 900px) {
+  .seguridadIndustrialImg1 img{
+      height: 300px;
+      object-fit: cover;
+  }
+}

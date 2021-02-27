@@ -45,7 +45,7 @@ export default function Example() {
                 variant="none"
                 id="dropdown-basic"
               >
-               <strong>PRODUCTOS</strong> 
+                <strong>PRODUCTOS</strong>
               </Dropdown.Toggle>
               <Dropdown.Menu>
                 <Dropdown.Item>
@@ -70,14 +70,10 @@ export default function Example() {
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-            <LinkContainer to="/contactenos" >
+            <LinkContainer to="/contactenos">
               <NavLink className="text-secondary">CONTÁCTENOS</NavLink>
             </LinkContainer>
           </Nav>
-          <Form inline>
-            <FormControl className="buscador" size="sm" type="text" placeholder="Search" />
-            <img className="lupa" src="https://imgur.com/LhDajo1.jpg" alt="lupa" />
-          </Form>
         </Navbar.Collapse>
       </Navbar>
     </>

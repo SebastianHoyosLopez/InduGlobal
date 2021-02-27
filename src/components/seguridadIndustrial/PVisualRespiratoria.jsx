@@ -1,6 +1,6 @@
 import React from "react";
 
-const PManualAuditiva = () => {
+const PVisualRespiratoria = () => {
   return (
     <div className="container">
       <div className="row">
@@ -12,13 +12,13 @@ const PManualAuditiva = () => {
               color: "white",
             }}
           >
-            Protección Manual
+            Protección Visual
           </h2>
           <div className="row">
             <div className="col-12 col-md-6">
               <img
                 className="col"
-                src="https://imgur.com/NRprjRF.jpg"
+                src="https://imgur.com/LZ0YJFd.jpg"
                 alt="Protección manual"
               />
               <div className="d-grid gap-2 my-4">
@@ -32,12 +32,11 @@ const PManualAuditiva = () => {
             </div>
             <div className="col-12 col-md-6" style={{ marginTop: "-5px" }}>
               <p>
-                Brindamos diferentes alternativas para cada una de sus
-                necesidades de protección manual. sin las manos, no podríamos
-                realizar muchas actividades que consideramos naturales, para
-                protección manual se utilizan los guantes de seguridad, que son
-                equipos de protección individual, contra los posibles riesgos en
-                el área laboral.
+                La mayoría de las lesiones en los ojos pueden ser evitadas
+                usando los equipos de protección adecuados protegiendo los ojos
+                de frente y de lado de una gran variedad de peligros y riesgos,
+                como objetos, partículas sólidas, luz visible, radiación
+                infrarroja ultravioleta, e incluso de salpicaduras químicas.
               </p>
             </div>
           </div>
@@ -50,13 +49,13 @@ const PManualAuditiva = () => {
               color: "white",
             }}
           >
-            Protección Auditiva
+            Protección Respiratoria
           </h2>
           <div className="row">
             <div className="col-12 col-md-6">
               <img
                 className="col"
-                src="https://imgur.com/ExmSQYE.jpg"
+                src="https://imgur.com/EEirh8N.jpg"
                 alt="Protección Auditiva"
               />
               <div className="d-grid gap-2 my-4">
@@ -70,15 +69,11 @@ const PManualAuditiva = () => {
             </div>
             <div className="col-12 col-md-6" style={{ marginTop: "-5px" }}>
               <p>
-                La exposición a ruidos molestos puede dañar permanentemente el
-                oído, al igual que producir estrés e incrementar la presión
-                sanguínea, contribuyendo a enfermedades del corazón.
-              </p>
-              <p>
-                Por las razones antes mencionadas, es indispensable que los
-                trabajadores cuenten con el equipo adecuado y sean entrenados en
-                su uso antes de realizar actividades que impliquen exposición al
-                ruido.
+                Los equipos de protección respiratoria resguardan las vías
+                respiratorias de los usuarios y trabajadores, protegiendolos
+                contra los contaminantes ambientales, tales como polvos, gases,
+                vapores, nieblas, bacterias o humos, que puedan afectar de una u
+                otra forma la salud de las personas.
               </p>
             </div>
           </div>
@@ -88,4 +83,4 @@ const PManualAuditiva = () => {
   );
 };
 
-export default PManualAuditiva;
+export default PVisualRespiratoria;

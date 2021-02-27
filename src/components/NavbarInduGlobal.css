@@ -3,21 +3,12 @@
   font-weight: bold;
 }
 
-.buscador {
-  position: relative;
-}
-
 @media (max-width: 575px) {
   .buscador {
     position: relative;
     width: 200px;
     margin-left: -5px;
   }
-}
-
-.lupa {
-  position: absolute;
-  margin-left: 125px;
 }
 
 #redesSociles {
