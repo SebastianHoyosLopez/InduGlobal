@@ -15,15 +15,17 @@ const Inicio = () => {
         <Carousel.Item interval={3000}>
           <img
             className="d-block w-100"
-            src="https://imgur.com/Xf9UCfv.jpg"
-            alt="imagenes de muestra 3"
+            src="https://imgur.com/33Fhtif.jpg"
+            alt="imagenes de muestra 2"
           />
           <Carousel.Caption>
-            <h2 className="text-start mb-3 col-12 col-md-8 col-lg-4 text-muted">
-              MASCARILLAS CERTIFICADAS PARA PROTECCIÓN Y BIOSEGURIDAD
+            <div className="text-start mb-3 col-12 col-md-8 col-lg-4">
+              <h2>
+                TODOS LOS IMPLEMENTOS DE SEGURIDAD QUE SU EMPRESA NECESITA
+              </h2>
               <hr />
-            </h2>
-            <h2 className="col text-start text-muted">VER MÁS</h2>
+            </div>
+            <h4 className="col text-start">VER MÁS</h4>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={3000}>
@@ -33,25 +35,25 @@ const Inicio = () => {
             alt="imagenes de muestra 1"
           />
           <Carousel.Caption>
-            <h2 className="text-start mb-3 col-12 col-md-6 col-lg-4">
-              TENEMOS UN MUNDO DE SOLUCIONES PENSADO PARA TI
+            <div className="text-start mb-3 col-12 col-md-6 col-lg-4">
+              <h2>TENEMOS UN MUNDO DE SOLUCIONES PENSADO PARA TI</h2>
               <hr />
-            </h2>
-            <h2 className="col text-start">VER MÁS</h2>
+            </div>
+            <h4 className="col text-start">VER MÁS</h4>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={3000}>
           <img
             className="d-block w-100"
-            src="https://imgur.com/33Fhtif.jpg"
-            alt="imagenes de muestra 2"
+            src="https://imgur.com/3SJGKlm.jpg"
+            alt="imagenes de muestra 3"
           />
           <Carousel.Caption>
-            <h2 className="text-start mb-3 col-12 col-md-8 col-lg-4">
-              TODOS LOS IMPLEMENTOS DE SEGURIDAD QUE SU EMPRESA NECESITA
+            <div className="text-start mb-3 col-12 col-md-8 col-lg-4">
+              <h2>MASCARILLAS CERTIFICADAS PARA PROTECCIÓN Y BIOSEGURIDAD</h2>
               <hr />
-            </h2>
-            <h2 className="col text-start">VER MÁS</h2>
+            </div>
+            <h4 className="col text-start">VER MÁS</h4>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
@@ -59,7 +61,7 @@ const Inicio = () => {
         <div className="col-12 col-lg-6">
           <img
             className="col-12"
-            src="https://imgur.com/y2XizAX.jpg"
+            src="https://imgur.com/WoPIb4c.jpg"
             alt="Seguridad IGS"
           />
           <p className="m-3">

@@ -123,7 +123,7 @@ const PCorporalAlturasFacial = () => {
             </div>
           </div>
         </div>
-        <div className="text-center col-12 col-lg-6 mb-5">
+        <div className="text-center col-12 col-lg-6 mt-4 mb-5">
           <div className="container">
             <div className="row">
               <img

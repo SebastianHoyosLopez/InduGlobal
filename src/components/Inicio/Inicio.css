@@ -4,6 +4,10 @@
   margin-bottom: 80px;
 }
 
+#carousel h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
 @media (max-width: 1131px) {
   #carousel h2 {
     margin-bottom: 50px;
