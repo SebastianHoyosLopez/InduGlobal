@@ -7,11 +7,7 @@
 #whatsapp {
   position: relative;
   z-index: absolute;
-  height: 40px;
-  margin-top: 20px;
+  height: 35px;
+  margin-top: 10px;
 }
 
-@media ()
-#whatsapp {
-
-}

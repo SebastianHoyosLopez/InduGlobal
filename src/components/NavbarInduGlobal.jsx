@@ -15,16 +15,14 @@ export default function Example() {
   return (
     <>
       <div id="redesSociles">
-        <a href="https://www.instagram.com/induglobalferretera/">
-          <img
-            className="mx-1"
-            src="https://imgur.com/JLh1mqC.jpg"
-            alt="instagram"
-          />
-        </a>
-        <a href="https://www.facebook.com/induglobalferretera">
-          <img src="https://imgur.com/i05dx2R.jpg" alt="facebook" />
-        </a>
+        <div className="d-flex justify-content-start">
+          <a href="https://www.instagram.com/induglobalferretera/">
+            <div id="instagram"></div>
+          </a>
+          <a href="https://www.facebook.com/induglobalferretera">
+            <div id="facebook"></div>
+          </a>
+        </div>
       </div>
       <Navbar bg="none" expand="lg" className="mt-5">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

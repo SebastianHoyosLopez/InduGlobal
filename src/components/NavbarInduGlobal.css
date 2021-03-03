@@ -1,3 +1,24 @@
+#facebook{
+  background-image: url('https://imgur.com/SAqvJB0.jpg');
+  height: 20px;
+  width: 21px;
+  margin-left: 5px;
+}
+
+#facebook:hover {
+  background-image: url('https://imgur.com/d4cTcCo.jpg');
+}
+
+#instagram{
+  background-image: url('https://imgur.com/CZlIEtI.jpg');
+  height: 20px;
+  width: 21px;
+}
+
+#instagram:hover {
+  background-image: url('https://imgur.com/V9j3ifM.jpg');
+}
+
 .menu {
   font-family: "Titillium Web", sans-serif;
   font-weight: bold;
@@ -24,6 +45,3 @@
   }
 }
 
-#redesSociles img {
-  height: 20px;
-}
