@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/InduGlobal/static/css/main.d4f9a6fb.chunk.css",
-    "main.js": "/InduGlobal/static/js/main.7c01a339.chunk.js",
-    "main.js.map": "/InduGlobal/static/js/main.7c01a339.chunk.js.map",
+    "main.css": "/InduGlobal/static/css/main.4c830fb4.chunk.css",
+    "main.js": "/InduGlobal/static/js/main.1e551c4f.chunk.js",
+    "main.js.map": "/InduGlobal/static/js/main.1e551c4f.chunk.js.map",
     "runtime-main.js": "/InduGlobal/static/js/runtime-main.a587d557.js",
     "runtime-main.js.map": "/InduGlobal/static/js/runtime-main.a587d557.js.map",
     "static/css/2.150d169a.chunk.css": "/InduGlobal/static/css/2.150d169a.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.0c7f0f35.chunk.js.map": "/InduGlobal/static/js/2.0c7f0f35.chunk.js.map",
     "index.html": "/InduGlobal/index.html",
     "static/css/2.150d169a.chunk.css.map": "/InduGlobal/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.d4f9a6fb.chunk.css.map": "/InduGlobal/static/css/main.d4f9a6fb.chunk.css.map",
+    "static/css/main.4c830fb4.chunk.css.map": "/InduGlobal/static/css/main.4c830fb4.chunk.css.map",
     "static/js/2.0c7f0f35.chunk.js.LICENSE.txt": "/InduGlobal/static/js/2.0c7f0f35.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a587d557.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.0c7f0f35.chunk.js",
-    "static/css/main.d4f9a6fb.chunk.css",
-    "static/js/main.7c01a339.chunk.js"
+    "static/css/main.4c830fb4.chunk.css",
+    "static/js/main.1e551c4f.chunk.js"
   ]
 }
