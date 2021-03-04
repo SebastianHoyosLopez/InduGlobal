@@ -36,3 +36,11 @@
 #recuadros {
   margin-top: -5px;
 }
+
+#recuadros img:hover {
+  opacity: 0.8;
+}
+
+#respirador:hover {
+  opacity: 0.8;
+}

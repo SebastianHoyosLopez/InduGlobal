@@ -22,10 +22,10 @@ const QuienesSomos = () => {
         </h3>
         <div className="row my-4">
           <div className="col-12 col-lg-6 my-2">
-            La forma jurídica de <strong>Induglobal Group S.A.S.</strong> es
-            SOCIEDAD POR ACCIONES SIMPLIFICADA y su principal actividad es
-            "Comercio al por menor de articulos de ferreteria pinturas y
-            productos en establecimientos especializados".
+            <strong>Forma Jurídica:</strong> La forma jurídica de
+            <strong> Induglobal Group S.A.S.</strong> es SOCIEDAD POR ACCIONES
+            SIMPLIFICADA y sus principales actividades es "Importación,
+            fabricación y distribución de productos para el sector industrial".
           </div>
           <div className="col-12 col-lg-6 my-2">
             Importamos, fabricamos y distribuimos productos con calidad y
@@ -46,7 +46,11 @@ const QuienesSomos = () => {
               <div className="text-center">
                 <h2 className="text-center">Necesitas asesoría</h2>
                 <form action="https://wa.link/boci2f">
-                  <input type="submit" value="CONTÁCTANOS" className="btn btn-light"/>
+                  <input
+                    type="submit"
+                    value="CONTÁCTANOS"
+                    className="btn btn-light"
+                  />
                 </form>
               </div>
             </div>
@@ -61,8 +65,15 @@ const QuienesSomos = () => {
             <div id="texto-imagenes2">
               <div className="text-center">
                 <h2>¿Quieres ser distribuidor?</h2>
-                <form action="https://wa.link/boci2f" style={{borderRadius: "10px"}}>
-                  <input type="submit" value="CONTÁCTANOS" className="btn btn-light"/>
+                <form
+                  action="https://wa.link/boci2f"
+                  style={{ borderRadius: "10px" }}
+                >
+                  <input
+                    type="submit"
+                    value="CONTÁCTANOS"
+                    className="btn btn-light"
+                  />
                 </form>
               </div>
             </div>
