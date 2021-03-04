@@ -61,6 +61,7 @@ const Inicio = () => {
         <div className="col-12 col-lg-6">
           <img
             className="col-12"
+            id="respirador"
             src="https://imgur.com/WoPIb4c.jpg"
             alt="Seguridad IGS"
           />
@@ -76,31 +77,37 @@ const Inicio = () => {
         <div id="recuadros" className="col-12 col-lg-6">
           <img
             className="col-6 col-lg-4 p-1"
+            id="mascarillas"
             src="https://imgur.com/Qz3Xbqr.jpg"
             alt=""
           />
           <img
             className="col-6 col-lg-4 p-1"
+            id="calzado"
             src="https://imgur.com/rHzdpg5.jpg"
             alt=""
           />
           <img
             className="col-6 col-lg-4 p-1"
+            id="manual"
             src="https://imgur.com/Gh8Vjm7.jpg"
             alt=""
           />
           <img
             className="col-6 col-lg-4 p-1"
+            id="herramientas"
             src="https://imgur.com/cQAMqYl.jpg"
             alt=""
           />
           <img
             className="col-6 col-lg-4 p-1"
+            id="soldadura"
             src="https://imgur.com/pZAOCC9.jpg"
             alt=""
           />
           <img
             className="col-6 col-lg-4 p-1"
+            id="abrasivos"
             src="https://imgur.com/OpLj5rf.jpg"
             alt=""
           />
