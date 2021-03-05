@@ -24,7 +24,7 @@ const QuienesSomos = () => {
           <div className="col-12 col-lg-6 my-2">
             <strong>Forma Jurídica:</strong> La forma jurídica de
             <strong> Induglobal Group S.A.S.</strong> es SOCIEDAD POR ACCIONES
-            SIMPLIFICADA y sus principales actividades es "Importación,
+            SIMPLIFICADA y su principal actividad es "Importación,
             fabricación y distribución de productos para el sector industrial".
           </div>
           <div className="col-12 col-lg-6 my-2">
